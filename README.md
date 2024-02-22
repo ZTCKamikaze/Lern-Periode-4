@@ -17,9 +17,10 @@ Mika Olmes
 
 ## 27.2.2024
 
-- [ ] Für ein erstes Projekt entscheiden (Discordbot oder Wetter Programm oder CurrencaCalculator erweitern)
-- [ ] Mich erkindigen wie ich Anfangen soll und was genau ich machen möchte
-- [ ] Anfangen zu programmieren und wenn async kommt über async erkundigen und eventuell ein Tutorial raussuchen
+- [ ] Async in meinen CurrencyCalculator einbinden
+- [ ] Discord-Bot erstellen (per tutorial denn ich habe es noch nie gemacht) --> Tutorial: https://www.youtube.com/watch?v=1I_GeGxJRp8
+- [ ] Discord Bot async hinzufügen mit spotify (music discord bot)
+- [ ] Discord Bot in einen Server hineintun und testen und testen lassen (mit leuten die auch auf dem Server sind)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
