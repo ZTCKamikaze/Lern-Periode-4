@@ -24,9 +24,10 @@ Mika Olmes
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |     |     |     |     |
-| ... |     |     |     |     |
-| 4   |     |     |     |     |
+| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |     |
+| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |     |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |     |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |     |
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
