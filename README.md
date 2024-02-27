@@ -18,20 +18,32 @@ Mika Olmes
 ## 27.2.2024
 
 - [ ] Async in meinen CurrencyCalculator einbinden
-- [ ] Discord-Bot erstellen (per tutorial denn ich habe es noch nie gemacht) --> Tutorial: https://www.youtube.com/watch?v=1I_GeGxJRp8
+- [X] Discord-Bot erstellen (per tutorial denn ich habe es noch nie gemacht) --> Tutorial: https://www.youtube.com/watch?v=1I_GeGxJRp8
 - [ ] Discord Bot async hinzufügen mit spotify (music discord bot)
 - [ ] Discord Bot in einen Server hineintun und testen und testen lassen (mit leuten die auch auf dem Server sind)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
+| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |   NEIN  |
+| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |   NEIN  |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |   NEIN  |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |  NEIN   |
+
+✍️ Heute habe ich probiert an meinem CurrencyCaluculator den async/await einzubinden, doch leider habe ich es nicht geschafft und dann hiess es schon wieder das ich zum nächsten AP muss, dort habe ich meinen DiscordBot erstellt und diesen sogar schon in einen Sever hineingetan, und ihn auch anfangen zu probieren (auch mit async/await) doch als ich den Token des Bots (für den Code) brauchte, gab es ein Problem, denn denn gibt Discord nur am Anfang des erstellens des Bots frei und danach nicht mehr, deswegen musste ich wieder einen neuen Bot erstellen und von vorne anfangen, doch auch bei diesem konnte ich den Token nicht finden. Ich werde veruschen herauszufinden wie ich den token herausfinden kann und auch benutzen kann und dann weiter coden. (123 Wörter)
+
+## 05.3.2024
+
+- [ ] Async in meinen CurrencyCalculator einbinden
+- [ ] Bot soll mir antworten wenn ich ihn etwas frage.
+- [ ] Discord Bot async hinzufügen mit spotify (music discord bot)
+- [ ] Discord Bot testen lassen
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
 | 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |     |
 | 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |     |
-| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |     |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |   NEIN  |
 | 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |     |
-
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
 ## Reflexion
 
