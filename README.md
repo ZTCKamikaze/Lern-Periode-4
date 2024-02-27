@@ -18,7 +18,7 @@ Mika Olmes
 ## 27.2.2024
 
 - [ ] Async in meinen CurrencyCalculator einbinden
-- [X] Discord-Bot erstellen (per tutorial denn ich habe es noch nie gemacht) --> Tutorial: https://www.youtube.com/watch?v=1I_GeGxJRp8
+- [X] Discord-Bot erstellen (per tutorial denn ich habe es noch nie gemacht) (er ist aber noch nicht aktiv) --> Tutorial: https://www.youtube.com/watch?v=1I_GeGxJRp8
 - [ ] Discord Bot async hinzufügen mit spotify (music discord bot)
 - [ ] Discord Bot in einen Server hineintun und testen und testen lassen (mit leuten die auch auf dem Server sind)
 
