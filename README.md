@@ -40,10 +40,28 @@ Mika Olmes
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
+| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |   NEIN  |
+| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |  NEIN   |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |  NEIN  |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |   NEIN  |
+
+✍️ Heute habe ich probleme gehabt meinen Token für den Discord bot zu finden, doch ich habe rechachiert und eine Lösung gefunden, und zwar musste ich in den Einstellungen etwas an machen, damit ich die Möglichkeit überhaupt bekomme, den Token zu kopieren. Danach hatte ich ebenfalls Probleme mit meinem Code, doch jetzt endlich, habe ich es geschaft, das er im Server als Online gesehen werden kann, jetzt muss ich nur noch die Commands erstellen, und ich werde ein bisschen langsamer forgehen, weil ich mich unterschätzt habe.
+
+## 12.03.2024
+
+- [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
+- [ ] Discord bot soll eine Nachricht löschen können
+- [ ] Discord soll ein Mitglied muten können und auch wieder entmuten.
+- [ ] - [ ] Async in meinen CurrencyCalculator einbinden
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
 | 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |     |
 | 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |     |
-| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |     |
-| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |     |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |    |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |   |
+
+
 
 ## Reflexion
 
