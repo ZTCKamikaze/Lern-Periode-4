@@ -45,14 +45,14 @@ Mika Olmes
 | 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |  NEIN  |
 | 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |   NEIN  |
 
-✍️ Heute habe ich probleme gehabt meinen Token für den Discord bot zu finden, doch ich habe rechachiert und eine Lösung gefunden, und zwar musste ich in den Einstellungen etwas an machen, damit ich die Möglichkeit überhaupt bekomme, den Token zu kopieren. Danach hatte ich ebenfalls Probleme mit meinem Code, doch jetzt endlich, habe ich es geschaft, das er im Server als Online gesehen werden kann, jetzt muss ich nur noch die Commands erstellen, und ich werde ein bisschen langsamer forgehen, weil ich mich unterschätzt habe.
+✍️ Heute habe ich probleme gehabt meinen Token für den Discord bot zu finden, doch ich habe rechachiert und eine Lösung gefunden, und zwar musste ich in den Einstellungen etwas an machen, damit ich die Möglichkeit überhaupt bekomme, den Token zu kopieren. Danach hatte ich ebenfalls Probleme mit meinem Code, doch jetzt endlich, habe ich es geschaft, das er im Server als Online gesehen werden kann, jetzt muss ich nur noch die Commands erstellen, und ich werde ein bisschen langsamer forgehen, weil ich mich unterschätzt habe. Leider habe ich am schluss als ich den Code hochladen wollte meinen Code ein wenig kaputt gemacht, und zwar hat Discord gemerkt, das ich den Token hochgeladen habe und mir eine Direktnachricht auf Discord geschrieben und meinen Token resettet... Nächstes Mal muss ich das reparieren. (130 Wörter)
 
 ## 12.03.2024
 
+- [ ] DiscordBot Code reparieren (token)
 - [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
 - [ ] Discord bot soll eine Nachricht löschen können
-- [ ] Discord soll ein Mitglied muten können und auch wieder entmuten.
-- [ ] - [ ] Async in meinen CurrencyCalculator einbinden
+- [ ] Async in meinen CurrencyCalculator einbinden
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
