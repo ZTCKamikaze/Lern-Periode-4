@@ -49,19 +49,33 @@ Mika Olmes
 
 ## 12.03.2024
 
-- [ ] DiscordBot Code reparieren (token)
+- [X] DiscordBot Code reparieren (token)
 - [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
 - [ ] Discord bot soll eine Nachricht löschen können
 - [ ] Async in meinen CurrencyCalculator einbinden
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |     |
-| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |     |
-| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  |    |
-| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |   |
+| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |  NEIN   |
+| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |  NEIN   |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  | NEIN   |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |  NEIN |
 
+✍️ Heute habe ich wieder einmal an meinem Discord Bot herumgebastelt, ich habe den Token ausgewechselt und wieder getestet, er ist wieder online anzuzeigen, doch commands zu erstellen und das der Bot darauf antwortet ist etwas schwieriger, darum hatte ich grosse Probleme mit den Commands, ich habe viele verschiedene Sachen ausprobiert, doch keine Lösung gefunden.(54 Wörter)
 
+## 19.03.2024
+
+- [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
+- [ ] Discord bot soll eine Nachricht löschen können
+- [ ] Discordbot soll musik abspielen können
+- [ ] Async in meinen CurrencyCalculator einbinden
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+| 1   |   Programm in Visual Studio gestartet  |  Währung umrechnen   |  Mit den Daten vom heutigen Tag   |  NEIN   |
+| 2   |  Discordbot erstellt   |  Discorbot in Server eingebnunden und diesen etwas fragen  |  Discordbot antwortet   |  NEIN   |
+| 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  | NEIN   |
+| 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |  NEIN |
 
 ## Reflexion
 
