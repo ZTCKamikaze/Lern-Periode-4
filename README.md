@@ -77,7 +77,21 @@ Mika Olmes
 | 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  | NEIN   |
 | 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |  NEIN |
 
-✍️ Heute habe ich an meinem Code weiter gearbe0et
+✍️ Heute habe ich an meinem Code weiter gearbeitet und habe commands eingefügt, zumindest einen, aber ich habe Probleme mit meinem Prefix. Der Prefix ist dafür da, dass der Bot erkennt das man mit ihm spricht, doch leider weiss ich nicht wie ich ihn definieren soll. Ich werde probieren das endlich mal zu schaffen, evtl. ist auch mein Bot falsch eingestellt und muss nochmals einen neuen Bot erstellen und dessen Token mit dem Alten austauschen. (74 Wörter)
+
+## 26.03.2024
+
+- [ ] Bot neu erstellen und Token austauschen
+- [ ] Prefix definieren.
+- [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
+- [ ] Bot soll mir einen Link geben zu einem Song, wenn ich schreibe: !song (bestimmten song und noch  nicht zufällige songs)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+| 1   |   Programm in Visual Studio gestartet und Token ausgetauscht |  Programm starten    |  Discord Bot soll online erscheinen in meinem Server   |     |
+| 2   |  Discordbot erstellt   |  Prefix definiert und sollte mir antowrten können  |  Discordbot antwortet mir  |     |
+| 3   | Discord bot in Server    |   !test  |   Hallo {User}  |    |
+| 4   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song  |    |
 
 ## Reflexion
 
