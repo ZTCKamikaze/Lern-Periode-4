@@ -77,6 +77,8 @@ Mika Olmes
 | 3   | Discord bot in Server    |   Discord bot nach einem Lied fragen  |   spielt lied ab  | NEIN   |
 | 4   | Discord bot in Server    |   Leute für den Test finden und die testen den bot  |   Bot sollte Lied abspielen |  NEIN |
 
+✍️ Heute habe ich an meinem Code weiter gearbe0et
+
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
