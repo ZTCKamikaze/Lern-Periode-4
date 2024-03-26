@@ -93,11 +93,11 @@ Mika Olmes
 | 3   | Discord bot in Server    |   !test  |   Hallo {User}  |  NEIN  |
 | 4   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song  |   NEIN |
 
-✍️ Heute habe ich wieder einmal an meinem discord bot gearbeitet, und ich habe es endlich (dank einem neuen Tutorial) geschafft, dass mir der Discord Bot antwortet, leider antwortet er mir mit Test successfull und nicht Hallo User. Ich werde dies als einer meiner Arbeits pakete setzten. (46 Wörter)
+✍️ Heute habe ich wieder einmal an meinem discord bot gearbeitet, und ich habe es endlich (dank einem neuen Tutorial) geschafft, dass mir der Discord Bot antwortet, leider antwortet er mir mit Test successfull und nicht Hallo User. Ich werde dies als einer meiner Arbeits pakete setzten. Leider habe ich einem adnere Tutrial gefolgt um Slash Commands zu erstellen, doch leider als ich fertig war, hat der Code nicht mehr funktioniert. Das heisst ich muss das nächste mal diesen Code fixen. (80 Wörter)
 
 ## 02.04.2024
 - [ ] Anstatt mit Test successfull mit Hallo (Username) antworten
-- [ ] Bot soll meinen Text nachamen, also er wieder holt alles was ich gesagt habe
+- [ ] Bot soll meinen Text nachamen, also er wieder holt alles was ich gesagt habe (mimic fertigstellen/fixen)
 - [ ] Bot soll mir einen Link geben zu einem Song, wenn ich schreibe: !song (bestimmten song und noch  nicht zufällige songs)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
