@@ -1,31 +1,63 @@
-using Discord;
-using Discord.WebSocket;
-using System;
-using System.Threading.Tasks;
+const Discord = require("discord.js");
 
-namespace LP4_Bot
-{
-    public class Program
-    {
-        private static DiscordSocketClient _client;
-        public static async Task Main()
+const client = new Discord.Client({
+    intents: ["GUILDS", "GUILD_MESSAGES", "GUILD_MEMBERS", "MESSAGE_CONTENT"],
+    partials: ["CHANNEL", "MESSAGE"]
+});
+
+const token = ("token")
+
+client.on('ready', async () => {
+console.log('Client has been logged into! ${client.user.username}')
+
+client.guild.cache.forEach((Guild) => {
+    setupSlashCommands(client, guild);
+});
+});
+
+function setupSlashCommands(clients, guildId) {
+    const commands = [
         {
-            _client = new DiscordSocketClient();
+            name: 'mimic',
+            description: 'Replies with whatever you Said',
+            options: [
+                {
+                    name: 'say',
+                    description: 'The thing you want the bot so say',
+                    type: 'STRING',
+                    required: true,
+                    mayLenght: 2000
+                },
+            ],
+        },
+    ]
 
-            _client.Log += Log;
-
-            var token = "token";
-
-            await _client.LoginAsync(TokenType.Bot, token);
-            await _client.StartAsync();
-
-            await Task.Delay(-1);
-        } 
-
-        private static Task Log(LogMessage msg)
-        {
-            Console.WriteLine(msg.ToString());
-            return Task.CompletedTask;
-        }
+    const guild = client.guilds.cache.get(guildId)
+    if (!guild) {
+        console.error('Guild with the ${guild} was not found');
     }
+
+    guild.commands.set(commands).catch((error) => {
+        console.error(`Error setting commands for guild ${guild.name} (${guild.id}):`, error);
+    });
 }
+
+client.on('messageCreate', async (message) => {
+    if (message.content.toLowerCase() === "test") {
+        message.reply("Test successfull!").catch(err => console.error(err));
+    }
+});
+
+client.on('interactionCreate', async (interaction) => {
+    try {
+        if (interaction.commandNae === 'mimic') {
+            const mimic = interaction.options.getString('say');
+
+            await interaction.reply('You said:\n${mimic}');
+        }
+    } catch (error) {
+        console.error(error);
+    }
+})
+
+client.login(token);
