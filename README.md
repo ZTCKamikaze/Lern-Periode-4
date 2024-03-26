@@ -81,17 +81,31 @@ Mika Olmes
 
 ## 26.03.2024
 
-- [ ] Bot neu erstellen und Token austauschen
-- [ ] Prefix definieren.
-- [ ] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
+- [X] Bot neu erstellen und Token austauschen
+- [X] Prefix definieren.
+- [X] Bot soll mir antworten wenn ich ihn etwas frage. (mithilfe Commands)
 - [ ] Bot soll mir einen Link geben zu einem Song, wenn ich schreibe: !song (bestimmten song und noch  nicht zufällige songs)
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |   Programm in Visual Studio gestartet und Token ausgetauscht |  Programm starten    |  Discord Bot soll online erscheinen in meinem Server   |     |
-| 2   |  Discordbot erstellt   |  Prefix definiert und sollte mir antowrten können  |  Discordbot antwortet mir  |     |
-| 3   | Discord bot in Server    |   !test  |   Hallo {User}  |    |
-| 4   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song  |    |
+| 1   |   Programm in Visual Studio gestartet und Token ausgetauscht |  Programm starten    |  Discord Bot soll online erscheinen in meinem Server   |   JA   |
+| 2   |  Discordbot erstellt   |  Prefix definiert und sollte mir antowrten können  |  Discordbot antwortet mir  |   JA  |
+| 3   | Discord bot in Server    |   !test  |   Hallo {User}  |  NEIN  |
+| 4   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song  |   NEIN |
+
+✍️ Heute habe ich wieder einmal an meinem discord bot gearbeitet, und ich habe es endlich (dank einem neuen Tutorial) geschafft, dass mir der Discord Bot antwortet, leider antwortet er mir mit Test successfull und nicht Hallo User. Ich werde dies als einer meiner Arbeits pakete setzten. (46 Wörter)
+
+## 02.04.2024
+- [ ] Anstatt mit Test successfull mit Hallo (Username) antworten
+- [ ] Bot soll meinen Text nachamen, also er wieder holt alles was ich gesagt habe
+- [ ] Bot soll mir einen Link geben zu einem Song, wenn ich schreibe: !song (bestimmten song und noch  nicht zufällige songs)
+
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| --- | --- | --- | --- | --- |
+| 1   |   Programm gestartet|  Test    |  Hallo (User) |      |
+| 2   |  Programm erstellt   |  mimic: say: Sag mir alles nach  | Sag mir alles nach |     |
+| 3   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song (z.B. Day n. Night by Kid Cudi) |    |
+
 
 ## Reflexion
 
