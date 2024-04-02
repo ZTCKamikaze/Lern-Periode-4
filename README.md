@@ -102,11 +102,14 @@ Mika Olmes
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |   Programm gestartet|  Test    |  Hallo (User) |      |
-| 2   |  Programm erstellt   |  mimic: say: Sag mir alles nach  | Sag mir alles nach |     |
-| 3   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song (z.B. Day n. Night by Kid Cudi) |    |
+| 1   |   Programm gestartet|  Test    |  Hallo (User) |   NEIN   |
+| 2   |  Programm erstellt   |  mimic: say: Sag mir alles nach  | Sag mir alles nach |  NEIN   |
+| 3   | Discord bot in Server    |   !song  |   gibt mir einen Link für einen Song (z.B. Day n. Night by Kid Cudi) |  NEIN  |
 
-
+✍️ Heute habe ich wieder an meinem Code gearbeitet, doch leider habe ich meinen halben Code löschen müssen, sodass ich mich konzentrieren kann, dass er meinen Namen zurück gibt, doch leider habe ich es nicht geschafft das er dies tut. 
 ## Reflexion
+
+Im ganzen bin ich nicht sehr zufrieden, den ich habe es nicht geschafft meinen Discord bot fertig zustellen, ich hoffe das ich das noch irgendwann beenden kann. Ich finde es gar nicht so einfach einen Discord Bot zu erstellen, ich habe es zu sehr unterschätzt, ich dachte es wäre total einfach einen Bot erstellen ^, da ich Davids Code gesehen hatte, doch ich habe am Schluss einen anderen Weg genommen, weil mein eigener Code nciht funktioniert hat. Ich werde probieren den Code in den nächsten Wochen oder in den Ferien fertigzustellen.
+
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
